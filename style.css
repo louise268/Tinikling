@@ -1,0 +1,66 @@
+header {
+    background-image: url('https://i.ytimg.com/vi/Kgm0JMdvMZE/maxresdefault.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin-bottom: 2cm;
+  }
+  h1 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+  }
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 1cm;
+    font-size: 20px;
+    color: maroon;
+  }
+  .list {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-top: 2cm;
+    font-size: 20px;
+    color: maroon;
+  }
+  ul {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 20px;
+    color: maroon;
+  }
+  .gallery {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  .gallery img {
+    width: 350px;
+    height: 300px;
+    margin: 10px 10px;
+    object-fit: cover;
+    margin-bottom: 1cm;
+  }
+  h2 {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: maroon;
+    margin-top: 2cm;
+    margin-left: 1cm;
+
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .people {
+    text-align: left;
+  }
